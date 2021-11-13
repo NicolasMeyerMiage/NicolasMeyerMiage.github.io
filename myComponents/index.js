@@ -176,7 +176,8 @@ template.innerHTML = `
             value="0.5" min="0" max="1" step="0.01" diameter="64" tooltip="Volume: %s"></webaudio-knob>
             <webaudio-knob id="speedKnob" src="./myComponents/assets/imgs/LittlePhatty.png" 
             value="1" min="0" max="4" step="0.25" diameter="64" tooltip="Vitesse: %s"></webaudio-knob>    
-            <webaudio-switch id="switch" width="50" height="50"></webaudio-switch>
+            <webaudio-switch id="switch" src="./myComponents/assets/imgs/switch_metal.png"
+            width="100" height="100"></webaudio-switch>
         </div>
         
         <canvas id="myCanvas" width: 100px height: 100px></canvas>
