@@ -28,7 +28,7 @@ Grâce à ce panel, il sera possible de :
 
 ![Panel Boutons](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/boutton.png)
 
-L'application propose un panel de bouton qui gère à des effets sonores de la musique en cours. Le switch, quant-à-lui, sert à une option d'affichage.  
+L'application propose un panel de bouton qui gère les effets sonores de la musique en cours. Le switch, quant-à-lui, sert à une option d'affichage.  
 - Glisser le premier bouton  <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/phatty_example.png" alt="play" height="25" width="25"/> jouera sur la balance gauche et droite du sons.
 - Glisser le deuxième bouton  <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/phatty_example.png" alt="play" height="25" width="25"/> jouera sur le volume de la musique. Attention, c'est fort... 
 - Glisser le troisième bouton  <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/phatty_example.png" alt="play" height="25" width="25"/> jouera sur la vitesse de la musique.
