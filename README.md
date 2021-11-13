@@ -43,12 +43,12 @@ L'application propose un panel de bouton qui gère à des effets sonores de la m
 
 ## L'aiguille folle
 En dessous du titre, il y a une aiguille réagissant au sons comprenant le rythme de la musique et la puissance du sons. Plus le sons est fort, plus l'aiguille tendra vers la droite.  
-C'est un excellent indicateur pour savoir quand le sons est vraiment fort. Un vrai régale.
+C'est un excellent indicateur pour savoir quand le sons est vraiment fort. Un vrai régale.  
 ![Aiguille](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/vizu3.png)
 ## La Playlist
 
 L'application dispose d'une petite playlist de trois chansons d'excellente facture dont un est l'un de mes sons favori (une chance sur trois de deviner lequel). 
-![Playlist](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/playlist.png)
+![Playlist](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/playlist.png)  
 Ce panel propose de changer la musique à tout moment de l'écoute :
 - Le bouton <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/myComponents/assets/imgs/actif.png" alt="play" height="20" width="20"/> indique la musique en cours de lecture. Cliquable, elle réinitialisera la musique.
 - Cliquer sur l'un des boutons <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/myComponents/assets/imgs/inactif.png" alt="play" height="20" width="20"/> le transformera en morceau actif <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/myComponents/assets/imgs/actif.png" alt="play" height="20" width="20"/> qui rendra le morceau anciennement actif, inactif en l'affichant avec le bouton <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/myComponents/assets/imgs/inactif.png" alt="play" height="20" width="20"/>.
