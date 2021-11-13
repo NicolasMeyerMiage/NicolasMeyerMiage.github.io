@@ -244,7 +244,6 @@ class MyWebAudioPlayer extends HTMLElement {
         this.loopButton = this.shadowRoot.querySelector("#loop");
         this.mute = this.shadowRoot.querySelector("#mute");
         this.aiguille = this.shadowRoot.querySelector("#aiguilleKnob");
-        this.aiguilleSpeed = this.shadowRoot.querySelector("#aiguilleSpeedKnob");
         this.switch = this.shadowRoot.querySelector("#switch");
         this.playlist = this.shadowRoot.querySelector("#playlist-list").children;
 
@@ -394,7 +393,6 @@ class MyWebAudioPlayer extends HTMLElement {
 
         this.shadowRoot.querySelector("#speedKnob").addEventListener("input", (event) => {
             this.player.playbackRate = parseFloat(event.target.value);
-            this.aiguilleSpeed.value = parseFloat(event.target.value);
         });
 
         this.shadowRoot.querySelector("#knbBalance").addEventListener("input", (event) => {
