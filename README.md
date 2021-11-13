@@ -35,7 +35,7 @@ Grâce à ce panel, il sera possible de :
 L'application propose un panel de bouton qui gère à des effets sonores de la musique en cours. Le switch, quant-à-lui, sert à une option d'affichage.  
 - Glisser le premier bouton  <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/phatty_example.png" alt="play" height="25" width="25"/> jouera sur la balance gauche et droite du sons.
 - Glisser le deuxième bouton  <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/phatty_example.png" alt="play" height="25" width="25"/> jouera sur le volume de la musique. Attention, c'est fort... 
-- Glisser le troisième bouton  <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/phatty_example.png" alt="play" height="25" width="25"/> jouera sur vitesse de la musique.
+- Glisser le troisième bouton  <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/phatty_example.png" alt="play" height="25" width="25"/> jouera sur la vitesse de la musique.
 - Cliquer sur le switch <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/switch.png" alt="play" height="25" width="25"/> modifiera l'affichage du canvas du sons :
 
  ![Canvas 1](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/vizu1.png)
