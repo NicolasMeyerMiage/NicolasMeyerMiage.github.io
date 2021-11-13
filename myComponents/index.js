@@ -148,7 +148,7 @@ template.innerHTML = `
     <audio id="myPlayer" crossorigin="anonymous"></audio>
   
     <div id="container">
-        <h1 style="text-align:center">Nicolas Meyer - WebAudio</h1>
+        <h1 style="text-align:center">Nicolas Meyer - Spotify de pauvre ♥️</h1>
         <h2 style="text-align:center">Musique : <span id="title">Deadmau5 ft Rob Wire - Ghosts 'n' Stuff</span></h2>
         
         <div id="aiguilleDynamic">
