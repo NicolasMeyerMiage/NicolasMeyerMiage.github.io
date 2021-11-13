@@ -118,6 +118,10 @@ template.innerHTML = `
             display:            flex;
             justify-content:    center;
         }
+        
+        .sep {
+            cursor:             default;
+        }
     
         .canvasFlex {
             display:            flex;
@@ -149,24 +153,26 @@ template.innerHTML = `
         
         <div id="aiguilleDynamic">
             <webaudio-knob id="aiguilleKnob" src="./myComponents/assets/imgs/aiguille.png"
-            width="198" height="164" value=0 min=0 max=100 step=1></webaudio-knob>                
+            width="198" height="164" value=0 min=0 max=100 step=1 tooltip="CA BOUGE TOUT SEUL AVEC LE SON !!!"></webaudio-knob>                
         </div>
         
         <div id="box">
-            <input type="image" id="playAndPauseButton" src="./myComponents/assets/imgs/play.png" />
             <span id="current_time"></span>
             <div id="progress_bar">
                 <div id="progressed"></div>
             </div>
             <span id="duration"></span>
-            <input type="image" class="loop" id="loop" src="./myComponents/assets/imgs/loop.png" />
-            <input type="image" class="mute" id="mute" src="./myComponents/assets/imgs/sound.png" />
         </div>
         <br>
         <div id="options">
-            <input type="image" id="downtotenButton" src="./myComponents/assets/imgs/back.png" />
-            <input type="image" id="restartButton" src="./myComponents/assets/imgs/restart.png" />
+            <input type="image" id="playAndPauseButton" src="./myComponents/assets/imgs/play.png" /> 
+            <input type="image" class="sep" src="./myComponents/assets/imgs/sep.png" /> 
+            <input type="image" id="downtotenButton" src="./myComponents/assets/imgs/back.png" /> 
+            <input type="image" id="restartButton" src="./myComponents/assets/imgs/restart.png" /> 
             <input type="image" id="uptotenButton" src="./myComponents/assets/imgs/foward.png" />
+            <input type="image" class="sep" src="./myComponents/assets/imgs/sep.png" /> 
+            <input type="image" id="loop" src="./myComponents/assets/imgs/loop.png" /> 
+            <input type="image" id="mute" src="./myComponents/assets/imgs/sound.png" /> 
         </div>
     
         <div id="buttons">
@@ -177,7 +183,7 @@ template.innerHTML = `
             <webaudio-knob id="speedKnob" src="./myComponents/assets/imgs/LittlePhatty.png" 
             value="1" min="0" max="4" step="0.25" diameter="64" tooltip="Vitesse: %s"></webaudio-knob>    
             <webaudio-switch id="switch" src="./myComponents/assets/imgs/switch_metal.png"
-            width="100" height="100"></webaudio-switch>
+            width="100" height="100" tooltip="Change canvas"></webaudio-switch>
         </div>
         
         <canvas id="myCanvas" width: 100px height: 100px></canvas>
