@@ -62,7 +62,7 @@ template.innerHTML = `
             background-color:   lightblue;
         }
     
-        #box {
+        #progress {
             display:            flex;
             justify-content:    center;
             margin-top:         30px;
@@ -156,7 +156,7 @@ template.innerHTML = `
             width="198" height="164" value=0 min=0 max=100 step=1 tooltip="CA BOUGE TOUT SEUL AVEC LE SON !!!"></webaudio-knob>                
         </div>
         
-        <div id="box">
+        <div id="progress">
             <span id="current_time"></span>
             <div id="progress_bar">
                 <div id="progressed"></div>
@@ -207,15 +207,15 @@ template.innerHTML = `
             <h3> PLAYLIST</h3>
             <ul id="playlist-list" style="list-style-type: none;">
                 <li data-sound="./myComponents/assets/playlist/ghosts_n_stuff.mp3">
-                    <input type="image" class="changeSound" id="sound0" src="./myComponents/assets/imgs/actif.png" />
+                    <input type="image" id="sound0" src="./myComponents/assets/imgs/actif.png" />
                       <span id="titre0">Deadmau5 ft Rob Wire - Ghosts 'n' Stuff</span>
                 </li>
                 <li data-sound="./myComponents/assets/playlist/death_and_desire.mp3">
-                    <input type="image" class="changeSound" id="sound1" src="./myComponents/assets/imgs/inactif.png" />
+                    <input type="image" id="sound1" src="./myComponents/assets/imgs/inactif.png" />
                       <span id="titre1">Knife Party - Death and Desire</span>
                 </li>
                 <li data-sound="./myComponents/assets/playlist/blood_sugar.mp3">
-                    <input type="image" class="changeSound" id="sound2" src="./myComponents/assets/imgs/inactif.png" />
+                    <input type="image" id="sound2" src="./myComponents/assets/imgs/inactif.png" />
                       <span id="titre2">Pendulum - Blood Sugar</span>
                 </li>
             </ul>
