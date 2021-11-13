@@ -43,7 +43,7 @@ C'est un excellent indicateur pour savoir quand le sons est vraiment fort. Un vr
 ![Aiguille](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/vizu3.png)
 ## La Playlist
 
-L'application dispose d'une petite playlist de trois chansons d'excellente facture dont un est l'un de mes sons favori (une chance sur trois de deviner lequel).  
+L'application dispose d'une petite playlist de trois titres d'excellentes factures dont un est l'un de mes titres favori (une chance sur trois de deviner lequel).  
 ![Playlist](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/playlist.png)  
 Ce panel propose de changer la musique à tout moment de l'écoute :
 - Le bouton <img  src="https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/myComponents/assets/imgs/actif.png" alt="play" height="20" width="20"/> indique la musique en cours de lecture. Cliquable, elle réinitialisera la musique.
