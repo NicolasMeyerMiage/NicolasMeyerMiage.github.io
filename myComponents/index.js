@@ -495,7 +495,7 @@ class MyWebAudioPlayer extends HTMLElement {
         }
         this.shadowRoot.querySelector("#sound"+idMusic).src = "./myComponents/assets/imgs/actif.png";
         this.shadowRoot.querySelector("#title").textContent = titre;
-        this.player.src = src.path[1].dataset.sound;
+        this.player.src = src.composedPath()[1].dataset.sound;
     }
 }
 
