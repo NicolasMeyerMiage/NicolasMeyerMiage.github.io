@@ -6,11 +6,7 @@
 
   
 
-![Panel On](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/panelon.png)
-
-  
-
-![Panel Off](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/paneloff.png)
+![Panel On](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/panelon.png) ![Panel Off](https://raw.githubusercontent.com/NicolasMeyerMiage/NicolasMeyerMiage.github.io/main/documentation/paneloff.png)
 
   
 
